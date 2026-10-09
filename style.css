@@ -537,3 +537,25 @@ h2 {
 .back-arrow {
   font-size: 14px;
 }
+
+.section-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  margin: -14px 20px 26px;
+}
+
+.section-subtitle a {
+  color: rgb(220, 60, 76);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(220, 60, 76, 0.35);
+  padding-bottom: 1px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.section-subtitle a:hover {
+  color: rgb(240, 90, 105);
+  border-color: rgb(240, 90, 105);
+}
